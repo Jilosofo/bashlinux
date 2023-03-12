@@ -1,4 +1,4 @@
-bashlinux
+##bashlinux
 
 Recuperar backup usando tar ######
 tar -xvf /dev/nst0  `bkp/setembro2016/Rede/bd/bd.tar` -C `/home/infra/scriptLTO/restaurar/`
