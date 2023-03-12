@@ -1,10 +1,9 @@
 bashlinux
 
 Recuperar backup usando tar ######
-tar -xvf /dev/nst0  bkp/setembro2016/Rede/bd/bd.tar -C /home/infra/scriptLTO/restaurar/
-                   /                                              /                                                 \
-         dispotivo LTO                           Local do arquivo                         Onde salvar
-
+tar -xvf /dev/nst0  `bkp/setembro2016/Rede/bd/bd.tar` -C `/home/infra/scriptLTO/restaurar/`
+                                                                                                                  \
+         
 Para listar os arquivos com multivolume:
 
 tar -t -v -M -f /dev/st0
